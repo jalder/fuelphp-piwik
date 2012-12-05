@@ -14,9 +14,8 @@ return array(
 
 Examples:
 
-
+<code>
 $piwik = new Model_Piwik();
-
 <img src="<?php echo $piwik->getImageSource('browsers','today','month'); ?>" alt="" title="" />
 
 
@@ -30,3 +29,4 @@ $piwik = new Model_Piwik();
 		<?php endforeach; ?>
 	</tbody>
 </table>
+</code>
